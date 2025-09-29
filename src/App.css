@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source "../src/assets/fonts/Nexa-Extalight.ttf";
+@source "../src/assets/fonts/Nexa-Heavy.ttf";
+
+@theme {
+  --color-appOrange: #ff3000;
+  --color-darkSlate: #333333;
+  --font-light: "Nexa Extalight", sans-serif;
+  --font-heavy: "Nexa Heavy", sans-serif;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+}
